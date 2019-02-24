@@ -12,3 +12,31 @@ motor de plantillas
 
 npm i express-session
 Administra las sesiones de nuestra app, necesario para autenticar a un user.
+
+-------------------------------------------------
+express-mysql-session
+almacenara las sesiones en la base de datos , en lugar del servidor.
+
+----------------------------------------------------------------------------
+morgan
+crea logs
+------------------------------------------------------------------
+bcryptjs
+cifra las passwords de los user antes de guardarlos en la db.
+-------------------------------------------------------------------------
+passport-local
+es un modulo para autenticar ymanejar el proceso de login de un usuario en nuestra app.
+------------------------------------------------------------------------------------------
+timeago.js
+convierte fechas de la base de datos a otro formato de "3 dias atras-3 minutos atras , etc"
+
+----------------------------------------------------------------------------------------
+connect-flash
+muestra mensajes de error y exito cuando el user haga una operacion
+-----------------------------------------------------------------------------------
+
+express-validator
+es un modulo para validar los datos que el usuario nos envia desde las app client
+-------------------------------------------------------------------------------------------------------
+
+
