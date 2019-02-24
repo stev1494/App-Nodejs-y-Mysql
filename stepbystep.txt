@@ -1,0 +1,14 @@
+npm init --yes
+
+-crea un package json que describe nuestro proyecto.
+--------------------------------------------------------------------------------------
+
+npm i express-handlebars
+
+motor de plantillas
+
+
+-----------------------------------------------------------------------------
+
+npm i express-session
+Administra las sesiones de nuestra app, necesario para autenticar a un user.
