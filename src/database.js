@@ -24,6 +24,7 @@ pool.getConnection((err, connection)=>{
     return; 
 });
 
+//Me ayuda a utilizar las promesas 
 
 pool.query = promisify(pool.query);
 module.exports = pool;
