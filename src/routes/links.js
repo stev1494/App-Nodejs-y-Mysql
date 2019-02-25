@@ -34,6 +34,7 @@ router.get('/delete/:id',async(req,res)=>{
     //res.send('eliminado');
     const { id } = req.params;
     await pool.query('DELETE FROM links WHERE ID = ?', [id]);
+    req.flash('success','Removido satisfactoriamente');
     res.redirect('/links');
 
 });
@@ -54,7 +55,7 @@ router.post('/edit/:id', async (req, res) => {
         url
     };
     await pool.query('UPDATE links set ? WHERE id = ?', [newLink, id]);
-    //req.flash('success', 'Link Updated Successfully');
+    req.flash('success', 'Link Updated Succrsessfully');
     res.redirect('/links');
 });
 
